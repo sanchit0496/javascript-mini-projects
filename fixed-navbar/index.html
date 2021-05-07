@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Fixed Navbar</title>
+  </head>
+
+  <body>
+
+    <div id="navbar">
+        <div id="one">
+            My Website
+        </div>
+        <div id="two">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="info">
+        <img src="https://images.pexels.com/photos/1352774/pexels-photo-1352774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+
+        <div id="para">
+            <h3>Paragraph 01</h3>
+            <p>
+                Nature is the best remedy for all problems over the word. Nature is an inspirational figure for various writers, novelists. We often heard that spending time in nature can freshen up our mind and body. Nature is the reason for living entities are surviving on earth. Nature is beneficial in all ways.
+                <br><br>
+                The green forests, mountains, glaciers, are the striking scenic beauties of nature. On vacations, people move to a hilly, beach or desert place. Because being with nature freshen up minds from the chaos of the world.
+                <br><br>
+                Nature has also emotions. But humans don’t understand it. With the burden of a growing population, nature is degrading its quality. Population means more and more numbers of concrete buildings and it results in cutting down forests
+            </p> 
+
+            <h3>Paragraph 02</h3>
+            <p>
+                Nature is boon to humankind. Nature consists of various natural resources i.e. Sunrays, air, water, soil, etc. which are necessary for humankind. There are various biotic and abiotic factors that together called nature. Biotic factors consist of forests and animals and abiotic factors are physical elements.
+                <br><br>
+                All those elements which are naturally found on earth and which are untouched by human activities are classified as natural resources. Fossils, Metals, Natural crude oil, etc. which are helpful for the world are also part of natural resources.
+                <br><br>
+                Nature is essential for the survival of humankind. Bio-diversity is an integral part of the natural system. Nature feeds several terrestrial and aquatic creatures. Preservation of natural resources is crucial for all humans.
+                <br><br>
+                Forest, sunrays, mountains all are important. Every element is carrying a special geological fact. What if there were no stones and pebbles? Then the fire was not invented. Yes, it is true natural elements are the root cause for developing a civilization
+            </p>
+        </div>
+
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <script>
+        let navbar = document.getElementById('navbar');
+        window.onscroll = function(){
+            if(window.scrollY > 350){
+                navbar.style.backgroundColor = "white";
+            }else{
+                navbar.style.backgroundColor = "transparent";
+            }
+        }
+    </script>
+
+  </body>
+</html>
