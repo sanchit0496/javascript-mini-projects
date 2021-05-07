@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(252, 228, 192);
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #btn{
+        align-items:center; 
+        text-align:center;
+        width: 25vh;
+        margin: auto;
+        margin-top:30vh;
+        background-color: white;
+        border-radius: 5px;
+        border: 2px solid black;
+        font-weight: 600;
+        padding: 2vh;
+        cursor: pointer;
+    }
+    #demo{
+        margin: auto;
+        padding: 4vh;
+        font-size: 1.2rem;
+    }
+    h1{
+       margin: auto; 
+       font-size: 10vh;
+    }
+</style>
+
+<body>
+    <div id="container">
+        <h1><i class="far fa-laugh-wink"></i> Dad Jokes</h1>
+
+        <input type="button" id="btn" value = "Click Here for Joke!">
+        <div id="demo"></div>
+    </div>
+</body>
+<script>
+    document.getElementById('btn').addEventListener('click', joke);
+    async function joke(){
+
+        let config = {
+            headers:{
+                Accept: 'application/json'
+            }
+        }
+
+        let a = await fetch('https://icanhazdadjoke.com', config);
+        let b = await a.json();
+        
+        document.getElementById('demo').innerHTML = b.joke;
+        
+
+    }
+    
+</script>
+
+</html>  
