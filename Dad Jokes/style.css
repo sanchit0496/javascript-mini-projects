@@ -1,0 +1,30 @@
+    body{
+        background-color: rgb(252, 228, 192);
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #btn{
+        align-items:center; 
+        text-align:center;
+        width: 25vh;
+        margin: auto;
+        margin-top:30vh;
+        background-color: white;
+        border-radius: 5px;
+        border: 2px solid black;
+        font-weight: 600;
+        padding: 2vh;
+        cursor: pointer;
+    }
+    #demo{
+        margin: auto;
+        padding: 4vh;
+        font-size: 1.2rem;
+    }
+    h1{
+       margin: auto; 
+       font-size: 10vh;
+    }
