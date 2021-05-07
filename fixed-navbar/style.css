@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    font-weight: 600;
+    font-size: 2.9vh;
+}
+#one{
+    padding: 1.5vh;
+}
+li{
+    padding: 1.5vh;
+    list-style: none;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+}
+#two{
+    margin-left: auto;
+}
+#two ul{
+    display: flex;
+    flex-direction: row;
+}
+#para{
+    padding: 10vh;
+}
+img 
+{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width:100%;
+  height:100vh;
+}
