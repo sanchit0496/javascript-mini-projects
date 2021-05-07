@@ -1,4 +1,7 @@
-#app{
+body{
+    background-color:whitesmoke;
+}
+#all{
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     background-color: white;    
     position: absolute;
@@ -8,21 +11,30 @@
     height: 40vh;
     width: 70vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
 }
-#c1{
+#app{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#control{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.c1{
     height: 5vh;
     width: 5vh;
     background-color: teal;
     border-radius: 50%;
-    margin:auto
 }
 .c2{
     height: 5vh;
     width: 5vh;
     background-color: thistle;
     border-radius: 50%;
-    margin:auto
 }
 .c3{
     height: 5vh;
@@ -32,22 +44,65 @@
     margin:auto
 }
 .l1{
-    height: 0.5vh;
+    height: 0.8vh;
     width: 15vh;
     background-color: thistle;
-    margin: auto;
-    border: 1px solid black;
-    padding: 5px;
+    border: 1px solid thistle;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    
 }
 .l2{
-    height: 0.5vh;
+    height: 0.8vh;
     width: 15vh;
     background-color: thistle;
-    margin: auto;
-    border: 1px solid black;
-    padding: 5px;
+    border: 1px solid thistle;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+#btn, #btn1{
+    margin-right: 2vh;
+    margin-left: 2vh;
+    background-color: white;
+    border: 1.5px solid grey;
+    padding: 1vh;
+    box-shadow: none;
+    border-radius: 4px;
+    width: 20vh;
 }
 .active{
     background-color: teal;
-    
 }
+.header{
+    text-align: center;
+    background-color: rgb(222, 233, 247);
+    padding: 2vh;
+    border-bottom: 2px solid grey;
+}
+
+/* @keyframes animation {
+    0% {
+        width: 0%;
+        background-color: teal;
+    }
+    25% {
+        width: 25%;
+        background-color: teal;
+    }    
+    50% {
+        width: 50%;
+        background-color: teal;
+    }
+    75% {
+        width: 75%;
+        background-color: teal;
+    }
+    100% {
+        width: 100%;
+        background-color: teal;
+    }
+  } */
