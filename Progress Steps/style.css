@@ -1,0 +1,53 @@
+#app{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    background-color: white;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40vh;
+    width: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+#c1{
+    height: 5vh;
+    width: 5vh;
+    background-color: teal;
+    border-radius: 50%;
+    margin:auto
+}
+.c2{
+    height: 5vh;
+    width: 5vh;
+    background-color: thistle;
+    border-radius: 50%;
+    margin:auto
+}
+.c3{
+    height: 5vh;
+    width: 5vh;
+    background-color:thistle;
+    border-radius: 50%;
+    margin:auto
+}
+.l1{
+    height: 0.5vh;
+    width: 15vh;
+    background-color: thistle;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+.l2{
+    height: 0.5vh;
+    width: 15vh;
+    background-color: thistle;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+.active{
+    background-color: teal;
+    
+}
