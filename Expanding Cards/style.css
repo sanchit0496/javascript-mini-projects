@@ -1,0 +1,71 @@
+.header{
+    text-align: center;
+    margin-top: 5vh;
+}
+body{
+    background-color: rgb(224, 250, 224);
+}
+#cards{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    background-color: white;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 60vh;
+    width: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+#card1{
+    background-color: burlywood;
+    height: 55vh;
+    width: 16vh;
+    margin: 2vh;
+    transition: width 2s;
+}
+#card2{
+    background-color: cadetblue;
+    height: 55vh;
+    width: 16vh;
+    margin: 2vh;
+    transition: width 2s;
+}
+#card3{
+    background-color: chocolate;
+    height: 55vh;
+    width: 16vh;
+    margin: 2vh;
+    transition: width 2s;
+}
+#card4{
+    background-color: darkkhaki;
+    height: 55vh;
+    width: 16vh;
+    margin: 2vh;
+    transition: width 2s;
+}
+#card5{
+    background-color: goldenrod;
+    height: 55vh;
+    width: 16vh;
+    margin: 2vh;
+    transition: width 2s;
+}
+#card1:hover{
+    width: 125vh;
+}
+#card2:hover{
+    width: 125vh;
+}
+#card3:hover{
+    width: 125vh;
+}
+#card4:hover{
+    width: 125vh;
+}
+#card5:hover{
+    width: 125vh;
+}
+                
+    
