@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(235, 228, 228);
+}
+#app{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+.header{
+    text-align: center;
+}
+#output{
+    display: flex;
+    flex-direction: row;
+}
+#key, #keycode, #eventcode{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: 2vh;
+    padding: 2vh;
+    display: none;
+    width: 25vh;
+    text-align: center;
+    font-size: 6vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 6vh;
+}
