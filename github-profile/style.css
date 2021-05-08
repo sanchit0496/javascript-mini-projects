@@ -1,0 +1,21 @@
+body{
+    background-color: whitesmoke;
+}
+.header{
+    text-align: center;
+    background-color: white;
+    padding: 2vh;
+    border-bottom: 2px solid lightgrey;
+}
+#app{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 15vh;
+}
+#output{
+    height: 10vh;
+    padding-top: 2vh;
+}
