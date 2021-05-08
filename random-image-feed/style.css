@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+.header{
+    text-align: center;
+    background-color: white;
+    padding: 5vh;
+}
+#output{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+img{
+    margin: 2vh;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 10px;
+}
