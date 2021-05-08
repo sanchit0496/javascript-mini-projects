@@ -1,0 +1,34 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    text-align: center;
+}
+.collapse{
+    background-color: #eee;
+    padding: 4vh;
+    width: 65vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5vh;
+}
+button{
+    text-align: left;
+}
+.content{
+    padding: 2.5vh;
+    background-color:whitesmoke;
+    display: none;
+    font-size: 2.2vh;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+i{
+    float: right;
+}
