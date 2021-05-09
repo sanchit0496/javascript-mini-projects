@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+#bg{
+    background: url('https://images.unsplash.com/photo-1556745757-8d76bdb6984b');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:98vw;
+    height:98vh;
+    filter: blur(20px);
+}
+#app{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header{
+    padding: 2vh;
+}
+form{
+    background-color: white;
+    padding: 5vh;
+    opacity: 0.8;
+    border-radius: 8px;
+    filter: blur(0px);
+    z-index: -1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label{
+    margin-bottom: 2vh;
+}
+input{
+    padding: 1vh;
+}
+#row{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+}
