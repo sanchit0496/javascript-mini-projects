@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+#app{
+    background-color: rgb(69, 102, 134);
+    width: 100%;
+}
+#pokemons{
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.poke{
+    align-items: center;
+    text-align: center;
+    background-color:rgb(220, 230, 243);
+    margin: 1vh;
+    width: 25vh;
+    height: 25vh;
+    padding: 1vh;
+    font-size: 2.4vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
