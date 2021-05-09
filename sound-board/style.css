@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(245, 232, 207);
+}
+#buttons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sound{
+    display: flex;
+    flex-direction: column;
+    width: 25vh;
+    height: 10vh;
+    margin: 1vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsteelblue;
+    border: 2px solid blue;
+    font-size: 2.5vh;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
