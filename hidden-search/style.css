@@ -1,0 +1,40 @@
+body {
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.search{
+      position: relative;
+}
+.search .input{
+    background-color: white;
+    border: 0;
+    padding: 2vh;
+    width: 1px;
+    transition: width 0.5s ease;
+}
+.btn{
+  background-color: #fff;
+  cursor: pointer;
+  width: 6.2vh;
+  height: 6.2vh;
+  transition: transform 0.5 ease;
+  margin-left: -5vh;
+  border: none;
+}
+.btn:focus, .input:focus{
+    outline: none;
+}
+.search.active .input{
+    width: 200px;
+}
+.search.input .btn{
+    transform: translateX(210px);
+}
