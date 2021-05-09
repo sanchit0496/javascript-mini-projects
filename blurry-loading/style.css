@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bg {
+  background: url('https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940')
+    no-repeat center center/cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
