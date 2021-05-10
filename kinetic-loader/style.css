@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(224, 229, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#app{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.triangle-up {
+    margin-left: 8vh;
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+    animation: forup 2s linear infinite;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #555;
+    animation: fordown 2s linear infinite;
+}
+@keyframes forup {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(72deg);
+    }
+    50%{
+        transform: rotate(144deg);
+    }
+    75%{
+        transform: rotate(216deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes fordown {
+    0%{
+        transform: rotate(0deg);
+    } 
+    25%{
+        transform: rotate(-72deg);
+    }
+    50%{
+        transform: rotate(-144deg);
+    }
+    75%{
+        transform: rotate(-216deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
