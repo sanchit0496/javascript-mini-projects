@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(224, 229, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#app{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 2.5vh;
+    background-color: white;
+    border-radius: 8px;
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    padding: 5vh;
+}
+#output{
+    height: 10vh;
+    font-size: 5vh;
+}
