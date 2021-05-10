@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(224, 229, 235);
+}
+#app{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 2.5vh;
+    background-color: white;
+    border-radius: 8px;
+}
+.cardhead{
+    background-image: linear-gradient(
+        to right,
+        #f6f7f8 0%,
+        #edeef1 10%,
+        #f6f7f8 20%,
+        #f6f7f8 100%
+      );
+    width: 48vh;
+    height: 3.5vh;
+    background-size: 200% 100%;
+    animation: bgPos 2s linear infinite;
+    font-size: 3.5vh;
+}
+.card{
+    margin: 2vh;
+}
+.cardinfo{
+    background-image: linear-gradient(
+        to right,
+        #f6f7f8 0%,
+        #edeef1 10%,
+        #f6f7f8 20%,
+        #f6f7f8 100%
+      );
+    width: 50vh;
+    height: 7vh;
+    background-size: 200% 100%;
+    animation: bgPos 2s linear infinite;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.cardprice{
+    padding: 1vh;
+    background-image: linear-gradient(
+        to right,
+        #f6f7f8 0%,
+        #edeef1 10%,
+        #f6f7f8 20%,
+        #f6f7f8 100%
+      );
+    width: 50vh;
+    height: 3.5vh;
+    background-size: 200% 100%;
+    animation: bgPos 2s linear infinite;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.cardimage{
+    background-image: linear-gradient(
+        to right,
+        #f6f7f8 0%,
+        #edeef1 10%,
+        #f6f7f8 20%,
+        #f6f7f8 100%
+      );
+    width: 50vh;
+    height: 25vh;
+    background-size: 200% 100%;
+    animation: bgPos 2s linear infinite;
+}
+img{
+    background-size: cover;
+    width: 50vh;
+    height: 25vh;
+}
+
+@keyframes bgPos {
+    0% {
+      background-position: 50% 0;
+    }
+  
+    100% {
+      background-position: -150% 0;
+    }
+  }
