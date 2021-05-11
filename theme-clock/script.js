@@ -71,23 +71,33 @@ function displayClock(){
     }
   window.setInterval(displayClock, 1000);
 }
-let count = 0;
+let count = 1;
 night.addEventListener('click', () => {
     count++;
     if(count % 2 == 1){
+        //normal
         all.style.backgroundColor = "white";
         h.style.color = "black";
         m.style.color = "black";
         s.style.color = "black";
         span.style.color = "black";
         datecss.style.color = "black";
+        night.style.backgroundColor = "white";
+        night.style.color = "black";
+        night.style.borderColor = "black";
+        night.innerHTML = "Light Mode";
     }else if(count % 2 == 0){
+        //night
         all.style.backgroundColor = "black";
         h.style.color = "white";
         m.style.color = "white";
         s.style.color = "white";
         span.style.color = "white";
         datecss.style.color = "white";
+        night.style.backgroundColor = "black";
+        night.style.color = "white";
+        night.style.borderColor = "white";
+        night.innerHTML = "Night Mode";
     }
 });
 displayDates();
