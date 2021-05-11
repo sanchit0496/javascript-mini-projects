@@ -10,6 +10,10 @@ body{
     height: 100vh;
     transition: all 0.5s ease-in;
     vertical-align: none;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 #app{
     top: 50%;
