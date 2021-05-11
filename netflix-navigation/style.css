@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+.navblack{
+    background-color: black;
+    width: 0vh;
+    height: 100vh;
+}
+.navblackactive{
+    background-color: black;
+    width: 45vh;
+    height: 100vh;
+    transition: width 0.5s;
+}
+.navred{
+    background-color: red;
+    width: 0vh;
+    height: 100vh;
+    z-index: -1;
+}
+.navredactive{
+    background-color: red;
+    width: 42vh;
+    height: 100vh;
+    transition: width 0.3s;
+    transition-delay: 0.5s;
+    /* z-index: -1; */
+}
+.navwhite{
+    background-color: white;
+    width: 0vh;
+    height: 100vh;
+    z-index: -12;   
+    display: none; 
+}
+.navwhiteactive{
+    background-color: white;
+    width: 39vh;
+    height: 100vh;
+    transition: width 0.2s;
+    transition-delay: 1s;
+    /* z-index: -12; */
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    height: 10vh;
+    background-color: transparent;
+    border:none;
+    display: block;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 2.9vh;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
