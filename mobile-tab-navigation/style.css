@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(35, 34, 59);
+}
+#app{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+#mobile{
+    background-color: lightgrey;
+    width: 45vh;
+    height: 75vh;
+    border-radius: 8px;
+    border: 4px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    transition: opacity 0.4s ease;
+}
+#bar{
+    background-color: white;
+    height: 10vh;
+    margin-top: 65vh;
+}
+.btn{
+    height: 10vh;
+    width: 10.75vh;
+    font-size: 3vh;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: grey;
+}
+.btn:focus{
+    outline: none;
+}
+.btnactive{
+    height: 10vh;
+    width: 10.75vh;
+    font-size: 3vh;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: purple;
+}
+.btnactive:focus{
+    outline: none;
+}
+.btn:hover{
+    color: purple;
+}
+
+
