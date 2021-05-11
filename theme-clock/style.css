@@ -28,7 +28,7 @@ body{
 }
 .hour{
     width: 145px;
-    height:3px;
+    height:3.5px;
     background-color:#333;
     transform: translate(-50%, -100%) rotate(0deg);
 }
@@ -84,6 +84,16 @@ body{
     justify-content: center;
 }
 .nightm{
-    padding-top: 55vh;
+    padding-top: 60vh;
     text-align: center;
+}
+#night{
+    padding: 2vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+#night:focus{
+    outline: none;
 }
