@@ -31,7 +31,6 @@
     width: 0vh;
     height: 100vh;
     z-index: -12;   
-    display: none; 
 }
 .navwhiteactive{
     background-color: white;
