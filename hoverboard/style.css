@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-color: #111;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+#app{
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    text-align: center;
+}
+.square{
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;    
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 2s ease;
+}
+
+.square:hover {
+    transition-duration: 0s;
+  }
