@@ -1,0 +1,10 @@
+.toggle{
+    background-color: rgb(176, 118, 231);
+    width: 125px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+}
+input{
+    visibility: hidden;
+}
