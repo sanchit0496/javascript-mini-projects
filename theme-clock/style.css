@@ -8,6 +8,7 @@ body{
 #all{
     background-color: white;
     height: 100vh;
+    width: 100vw;
     transition: all 0.5s ease-in;
     vertical-align: none;
     top: 50%;
