@@ -71,7 +71,10 @@ function displayClock(){
     }
   window.setInterval(displayClock, 1000);
 }
+
+//this can be optimised by creating classes and using toggle
 let count = 1;
+
 night.addEventListener('click', () => {
     count++;
     if(count % 2 == 1){
