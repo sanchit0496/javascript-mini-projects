@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(60, 60, 100);
+}
+#app{
+    display: flex;
+    flex-direction: row;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.empty{
+    height: 15vh;
+    width: 15vh;
+    margin: 10px;
+    border: 4px solid black;
+    background-color: white;
+}
+.fill{
+    background: url('https://source.unsplash.com/random/145x145');
+    height: 15vh;
+    width: 15vh;
+    cursor: pointer;
+    background-size: cover;
+}
+.hold{
+    border: 4px solid grey;
+}
+.hovered{
+    background-color: #333;
+    border-color: 4px dashed white;
+}
