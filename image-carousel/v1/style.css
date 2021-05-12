@@ -1,0 +1,42 @@
+body{
+    background-color: thistle;
+}
+#app{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);   
+    height: 75vh;
+    width: 55vh;
+}
+
+#photos{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 75vh;
+    width: 55vh;
+    transform: translateX(0);
+    transition:  2s ease-in-out;
+    overflow: hidden;
+}
+img{
+    background-position: center center;
+    position: absolute;
+    transition:  2s ease-in-out;
+    height: 75vh;
+    width: 55vh;
+    object-fit: cover;
+}
+.arrow{
+    width: 50%;
+    background-color: white;
+    padding: 2vh;
+    border: 0.5px solid grey;
+    cursor: pointer;
+}
+.arrow:focus{
+    outline: none;
+}
+#ctrl{
+    display: flex;
+    flex-direction: row;
+}
