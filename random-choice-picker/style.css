@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+
+body{
+    background-color: rgb(34, 34, 82);
+    font-family: 'Heebo', sans-serif;
+}
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+#app{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+#task{
+    padding: 2vh;
+}
+#btn{
+    height: 7vh;
+    width: 10vh;
+    cursor: pointer;
+}
+#btn1{
+    height: 7vh;
+    width: 42vh;
+    cursor: pointer;
+}
+#alltasks{
+    margin: 2vh;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+#result{
+    margin-top: 5vh;
+    color: white;
+}
