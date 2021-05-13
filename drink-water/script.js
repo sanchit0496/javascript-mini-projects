@@ -13,7 +13,7 @@ smallCups.forEach((cup, idx) => {
 })
 
 //function to fill the small cups
-//if the cup clicked is full and the prev cup is also filled then the clicked cup will be empty, for ex, if 4 is clicked and 3 is also filled then 4 will be empty
+//if the cup clicked is full and the next cup is empty then the clicked cup will be empty, for ex, if 4 is clicked and 5 is empty then 4 will be empty
 
 //to access all the indexes before the index we are getting from smallCups function
 //idx --> clicked idx2 --> all indexes before the idx
