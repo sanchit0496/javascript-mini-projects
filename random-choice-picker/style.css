@@ -19,7 +19,6 @@ body{
 #task{
     padding: 2vh;
     background-color: white;
-    border-radius: 5px;
     border: 2.5px solid black;
     outline: 1px solid white;
 }
@@ -28,16 +27,14 @@ body{
     width: 10vh;
     cursor: pointer;
     background-color: white;
-    border-radius: 5px;
     border: 2.5px solid black;
     outline: 1px solid white;
 }
 #btn1{
     height: 7vh;
-    width: 42vh;
+    width: 41vh;
     cursor: pointer;
     background-color: white;
-    border-radius: 5px;
     border: 2.5px solid black;
     outline: 1px solid white;
 }
@@ -48,6 +45,7 @@ li{
     list-style-type: none;
     color: white;
 }
+
 #result{
     margin-top: 5vh;
     color: white;
