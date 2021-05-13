@@ -18,16 +18,28 @@ body{
 }
 #task{
     padding: 2vh;
+    background-color: white;
+    border-radius: 5px;
+    border: 2.5px solid black;
+    outline: 1px solid white;
 }
 #btn{
     height: 7vh;
     width: 10vh;
     cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    border: 2.5px solid black;
+    outline: 1px solid white;
 }
 #btn1{
     height: 7vh;
     width: 42vh;
     cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    border: 2.5px solid black;
+    outline: 1px solid white;
 }
 #alltasks{
     margin: 2vh;
