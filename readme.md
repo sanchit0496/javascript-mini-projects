@@ -1,5 +1,5 @@
 
-# Frontend Mini Projects
+# Frontend Mini Projects (50 HTML, CSS, and Vanilla JS Projects)
 
 ## Overview
 This repository contains a collection of frontend mini-projects. These projects are created to help improve your frontend skills and understanding of various web technologies. Feel free to explore, use, and contribute to these projects.
