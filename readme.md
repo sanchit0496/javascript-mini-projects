@@ -69,7 +69,7 @@ This repository contains a collection of frontend mini-projects. These projects 
 To get started with these projects, clone the repository and navigate to the project folder.
 
 ```sh
-git clone https://github.com/sanchit0496/50days50projects.git
+git clone https://github.com/sanchit0496/javascript-mini-projects.git
 cd repository-name
 # Navigate to individual project folders for specific instructions
 ```
