@@ -93,4 +93,4 @@ We welcome contributions from the open-source community. To contribute, please f
 5. Create a new Pull Request.
 
 ## License
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This repository is licensed under the MIT License
