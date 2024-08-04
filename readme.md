@@ -15,57 +15,56 @@ This repository contains a collection of frontend mini-projects. These projects 
 
 | Project Name                  | Description                                  |
 |-------------------------------|----------------------------------------------|
-| 3d-boxes-background           | Interactive 3D boxes background              |
-| animated-countdown            | Countdown animation                          |
-| animated-navigation           | Animated navigation menu                     |
-| auto-text-effect              | Automatic typing text effect                 |
-| background-slider             | Background image slider                      |
-| blurry-loading                | Blurry image loading effect                  |
-| content-placeholder           | Placeholder for content loading              |
-| custom-range-slider           | Custom styled range slider                   |
-| dad-jokes                     | Random dad jokes generator                   |
-| double-click-heart            | Double click to like animation               |
-| double-vertical-slider        | Double vertical image slider                 |
-| drag-n-drop                   | Drag and drop functionality                  |
-| drawing-app                   | Simple drawing application                   |
-| drink-water                   | Water drinking reminder                      |
-| event-keycodes                | Display keycodes of pressed keys             |
-| expanding-cards               | Expanding cards layout                       |
-| faq-collapse                  | Collapsible FAQ section                      |
-| feedback-ui-design            | Feedback form UI design                      |
-| fixed-navbar                  | Fixed navigation bar                         |
-| form-input-wave               | Wave animation for form inputs               |
-| github-profile                | GitHub profile fetcher                       |
-| good-cheap-fast               | Good, cheap, fast selector                   |
-| hidden-search                 | Hidden search bar                            |
-| hoverboard                    | Hover effect board                           |
-| image-carousel                | Image carousel                               |
-| incrementing-counter          | Incrementing number counter                  |
-| insect-catch-game             | Catch the insect game                        |
-| kinetic-loader                | Kinetic loader animation                     |
-| live-user-filter              | Live user filter                             |
-| mobile-tab-navigation         | Mobile tab navigation                        |
-| movie-app                     | Movie information app                        |
-| netflix-navigation            | Netflix style navigation                     |
-| note-app                      | Note-taking application                      |
-| password-generator            | Random password generator                    |
-| password-strength-background  | Password strength background                 |
-| pokedex                       | Pokedex with Pokémon information             |
-| progress-steps                | Progress steps indicator                     |
-| quiz-app                      | Quiz application                             |
-| random-choice-picker          | Random choice picker                         |
-| random-image-feed             | Random image feed                            |
-| ripple-effect                 | Button ripple effect                         |
-| rotating-nav-animation        | Rotating navigation animation                |
-| scroll-animation              | Scroll triggered animations                  |
-| sound-board                   | Sound board with various sounds              |
-| split-landing-page            | Split screen landing page                    |
-| testimonial-box-switcher      | Testimonial box switcher                     |
-| theme-clock                   | Theme switchable clock                       |
-| to-do-list                    | To-do list application                       |
-| toast-notification            | Toast notification system                    |
-| verify-account-ui             | Account verification UI                      |
-
+| 3d-boxes-background           | Interactive 3D boxes background with CSS animations.              |
+| animated-countdown            | Countdown timer with smooth animation transitions.                          |
+| animated-navigation           | Navigation menu with dynamic animations.                     |
+| auto-text-effect              | Text typing effect that simulates typing.                 |
+| background-slider             | Slider that changes background images dynamically.                      |
+| blurry-loading                | Loading effect that transitions from blur to clear.                  |
+| content-placeholder           | Placeholder content while data is loading.              |
+| custom-range-slider           | Custom styled range input slider.                   |
+| dad-jokes                     | Generates random dad jokes using an API.                   |
+| double-click-heart            | Like button animation triggered by double-click.               |
+| double-vertical-slider        | Image slider with dual vertical panels.                 |
+| drag-n-drop                   | Drag and drop functionality for interactive lists.                  |
+| drawing-app                   | Basic drawing application using canvas.                   |
+| drink-water                   | App to remind you to drink water throughout the day.                      |
+| event-keycodes                | Displays keycodes for keyboard events.             |
+| expanding-cards               | Expanding card layout for showcasing content.                       |
+| faq-collapse                  | Collapsible FAQ section for streamlined user experience.                      |
+| feedback-ui-design            | User feedback form with interactive UI.                      |
+| fixed-navbar                  | Fixed navigation bar that remains on scroll.                         |
+| form-input-wave               | Form input with wave animation on focus.               |
+| github-profile                | Fetches and displays GitHub profile information.                       |
+| good-cheap-fast               | Selector for prioritizing good, cheap, and fast options.                   |
+| hidden-search                 | Search input that expands when clicked.                            |
+| hoverboard                    | Interactive board with hover effects.                           |
+| image-carousel                | Carousel for cycling through images.                               |
+| incrementing-counter          | Counter that increments numbers dynamically.                  |
+| insect-catch-game             | Game where you catch insects on the screen.                        |
+| kinetic-loader                | Animated kinetic loader for page loading.                     |
+| live-user-filter              | Filters user data in real-time.                             |
+| mobile-tab-navigation         | Mobile-friendly tab navigation component.                        |
+| movie-app                     | App to search and display movie information.                        |
+| netflix-navigation            | Netflix-style navigation menu.                     |
+| note-app                      | Simple note-taking application.                      |
+| password-generator            | Generates random passwords with various criteria.                    |
+| password-strength-background  | Changes background based on password strength.                 |
+| pokedex                       | Displays information about Pokémon using an API.             |
+| progress-steps                | Progress indicator for multi-step processes.                     |
+| quiz-app                      | Application to create and take quizzes.                             |
+| random-choice-picker          | Randomly picks an option from a list of choices.                         |
+| random-image-feed             | Displays a feed of random images using an API.                            |
+| ripple-effect                 | Button with ripple click effect.                         |
+| rotating-nav-animation        | Navigation menu with rotating animation.                |
+| scroll-animation              | Animations triggered by scroll events.                  |
+| sound-board                   | Sound board with various audio clips.              |
+| split-landing-page            | Split screen layout for landing pages.                    |
+| testimonial-box-switcher      | Switches between different testimonial boxes.                     |
+| theme-clock                   | Clock with customizable themes.                       |
+| to-do-list                    | To-do list application for task management.                       |
+| toast-notification            | Toast notifications for alerts and messages.                    |
+| verify-account-ui             | UI for account verification processes.                      |
 ## Installation
 To get started with these projects, clone the repository and navigate to the project folder.
 
